@@ -7,8 +7,11 @@ Leaders Of Digital
 1. Установить docker-compose, docker
 1. Запустить бэк командой docker-compose -f "docker-compose.yml" up -d --build
 1. Установить ngrok
-1. Запустить ngrok ngrok http http://localhost:9000 -host-header="localhost:9000"
-1. Скопировать/записать/запомнить адрес, который будет выведен после запуска в формате https://XXXXXXXXXX.ngrok.io
+1. Запустить 
+   ```bash
+   ngrok ngrok http http://localhost:9000 -host-header="localhost:9000"  
+   ```
+2. Скопировать/записать/запомнить адрес, который будет выведен после запуска в формате https://XXXXXXXXXX.ngrok.io
   
 Если нужно сменить порт для бэка, то:  
 Перейти в ./rosseti-back
